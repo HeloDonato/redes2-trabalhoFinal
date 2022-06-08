@@ -3,7 +3,7 @@ const SNAKE_COLOUR = '#c2c2c2';
 const SNAKE2_COLOUR = 'yellow';
 const FOOD_COLOUR = '#e66916';
 
-const socket = io('https://sleepy-island-33889.herokuapp.com/');
+const socket = io('https://redes2-snake.herokuapp.com/');
 
 socket.on('init', handleInit);
 socket.on('gameState', handleGameState);
